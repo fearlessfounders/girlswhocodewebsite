@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+body {
+    font-family: 'Cabin', sans-serif;
+
+}
+.main {
+    text-align: center;
+    padding: 8rem 0 5rem;
+    height: 100vh;
+}
+
+.navbar-container {
+    color: #444444;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 0 5%;
+}
+
+h1 {
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-family: 'Arimo', sans-serif;
+    color:#000;
+
+}
+h1:hover {
+    color: #212121;
+}
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-family: 'Arimo', sans-serif;
+
+}
+li {
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Arimo', sans-serif;
+
+}
+.social-media {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 4px  9px;
+    border-radius: 5px;
+    color: #000;
+    transition: all ease-in-out 300ms;
+}
+.social-media:hover {
+    background-color: #000;
+    color: #F4F4F4;
+}
+.social-media::after {
+    display: none;
+}
+
+li:hover {
+    color: #212121;
+}
+
+body {
+    background-color:#eff5f9;
+}
+
+#firstp {
+    float:left;width:40%;margin-top:110px;background-color:white;padding:15px;
+}
+
+#typewrite {
+
+    width:50%;background-color:#000;height:50%;float:right;margin-top:110px;
+}
+.tech-slideshow {
+    height: 100px;
+    width:70%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+
+#yeet {
+    width:90%;height:500px;background-color:#fff;margin-right:auto;margin-left:auto;
+}
+
+#collaborate {
+
+    width:40%;float:left;
+}
+
+#collab {
+
+    color:black;font-family: 'Muli', sans-serif;font-size:60px;text-align:left;margin-left:20px;
+}
+#firstconvo {
+
+    width:50%;background-color:#000;height:100%;float:right;margin-right:30px;
+}
+
+#collabp {
+
+    font-family: 'Muli', sans-serif;font-size:18px;margin-bottom:40px;margin-left:20px;color:black;line-height:24px;
+}
+
+#collabdiv {
+
+    background-color:white;padding:18px;border-radius:5px;margin-left:20px;font-size:18px;line-height:24px;color:black;font-family: 'Muli', sans-serif;text-align:left;font-weight:bold;border-top:4px solid #000;
+}
+
+#debug {
+    width:40%;float:left;
+}
+
+#debugheader {
+
+    color:black;font-family: 'Muli', sans-serif;font-size:60px;text-align:left;margin-left:20px;
+}
+
+#growp {
+
+    font-family: 'Muli', sans-serif;font-size:18px;margin-bottom:40px;margin-left:20px;color:black;line-height:24px;
+}
+
+#debugparagraph {
+
+    background-color:white;padding:18px;border-radius:5px;margin-left:20px;font-size:18px;line-height:24px;color:black;font-family: 'Muli', sans-serif;text-align:left;font-weight:bold;border-top:4px solid #000;
+}
+
+#debugconvo {
+
+    width:50%;background-color:#000;height:100%;float:right;margin-right:30px;
+}
+
+#empower {
+
+    width:40%;float:left;
+}
+
+#empowerheader {
+
+    color:black;font-family: 'Muli', sans-serif;font-size:50px;text-align:left;margin-left:20px;
+}
+
+#empowerp {
+
+    font-family: 'Muli', sans-serif;font-size:18px;margin-bottom:40px;margin-left:20px;color:black;line-height:24px;
+}
+
+#empowerconvo {
+
+    width:50%;background-color:#000;height:100%;float:right;margin-right:30px;
+}
+
+#band {
+
+    width:90%;background-color:#9dffed;max-width:none;margin-bottom:100px;
+}
+
+#band2 {
+
+    width:90%;background-color:#ffcf9d;max-width:none;margin-bottom:100px;
+}
+
+#codecommunity {
+
+    font-size:60px;font-family: 'Rubik', sans-serif;font-weight:bold;line-height:55px;color:black;
+}
+#band3 {
+
+    width:90%;background-color:#d99dff;max-width:none;margin-bottom:100px;
+}
+#empowerdiv {
+
+    float:left;background-color:white;padding:18px;border-radius:5px;margin-left:20px;font-size:18px;line-height:24px;color:black;font-family: 'Muli', sans-serif;text-align:left;font-weight:bold;border-top:4px solid #000;
+}
+.tech-slideshow > div {
+    height: 200px;
+    width: 2526px;
+    background: url(thisone2.jpg.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+    animation: moveSlideshow 12s linear infinite;
+}
+.tech-slideshow .mover-2 {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    background-position: 0 -200px;
+    animation: moveSlideshow 15s linear infinite;
+}
+.tech-slideshow:hover .mover-2 {
+    opacity: 1;
+}
+
+@keyframes moveSlideshow {
+    100% {
+        transform: translateX(-66.6666%);
+    }
+}
+
+@media (max-width: 1023px) {
+    #firstp{
+        width: 100%;
+        margin-top: 80px;
+        background-color: white;
+        padding: 15px;
+        margin-left: auto!important;
+        margin-right: auto!important;
+        display: inline-block;height:0px;
+    }
+    #typewrite{
+        width: 100%;
+        background-color: #000;
+        height: 30%;
+        margin-top:0px;
+        display:none;
+
+    }
+    #yeet {
+        width:90%;height:350px;background-color:#fff;margin-right:auto;margin-left:auto;margin-top:50px;
+    }
+
+    #collaborate {
+
+        width:100%;
+    }
+
+    #firstconvo {
+
+        width:50%;background-color:#000;height:100%;float:right;margin-right:30px;display:none;
+    }
+    #collab {
+
+        color:black;font-family: 'Muli', sans-serif;font-size:50px;text-align:left;margin-left:0px;
+    }
+
+    #collabp {
+
+        font-family: 'Muli', sans-serif;font-size:18px;margin-bottom:40px;margin-left:0px;color:black;line-height:24px;
+    }
+
+    #collabdiv {
+
+        background-color:white;padding:18px;border-radius:5px;margin-left:0px;font-size:18px;line-height:24px;color:black;font-family: 'Muli', sans-serif;text-align:left;font-weight:bold;border-top:4px solid #000;
+    }
+
+    #debug {
+
+        width:100%;float:left;
+    }
+
+    #debugheader{
+
+        color:black;font-family: 'Muli', sans-serif;font-size:50px;text-align:left;margin-left:0px;
+    }
+
+    #growp {
+        font-family: 'Muli', sans-serif;font-size:18px;margin-bottom:40px;margin-left:0px;color:black;line-height:24px;
+    }
+
+    #debugparagraph {
+        background-color:white;padding:18px;border-radius:5px;margin-left:0px;font-size:18px;line-height:24px;color:black;font-family: 'Muli', sans-serif;text-align:left;font-weight:bold;border-top:4px solid #000;
+    }
+
+    #debugconvo {
+
+        width:50%;background-color:#000;height:100%;float:right;margin-right:30px;display:none;
+    }
+
+    #empower {
+
+        width:100%;
+    }
+
+    #empowerheader {
+
+        color:black;font-family: 'Muli', sans-serif;font-size:50px;text-align:left;margin-left:0px;
+    }
+
+    #empowerp {
+
+        font-family: 'Muli', sans-serif;font-size:18px;margin-bottom:40px;margin-left:0px;color:black;line-height:24px;
+    }
+
+    #empowerconvo {
+
+        width:50%;background-color:#000;height:100%;float:right;margin-right:30px;display:none;
+    }
+
+    #empowerdiv {
+
+        float:left;background-color:white;padding:18px;border-radius:5px;margin-left:0px;font-size:18px;line-height:24px;color:black;font-family: 'Muli', sans-serif;text-align:left;font-weight:bold;border-top:4px solid #000;
+    }
+
+    #band {
+
+        width:90%;background-color:#9dffed;max-width:none;margin-bottom:50px;
+    }
+
+    #band2 {
+
+        width:90%;background-color:#ffcf9d;max-width:none;margin-bottom:50px;
+    }
+
+    #band3 {
+
+        width:90%;background-color:#d99dff;max-width:none;margin-bottom:50px;
+    }
+
+    #codecommunity {
+        font-size:40px;font-family: 'Rubik', sans-serif;font-weight:bold;line-height:45px;color:black;
+    }
+
+}
+
+
+.typewriter h1 {
+    overflow: hidden;
+    color:white;/* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #9dffed; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 10px; /* Gives that scrolling effect as the typing happens */
+    animation:
+            typing 3.5s steps(40, end),
+            blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #9dffed; }
+}
